@@ -55,7 +55,7 @@ def extract_sections(file):
 # UI
 # --------------------------------------------------
 st.set_page_config(page_title="Fact Checker", layout="wide")
-st.title("🛡️ AI Fact Checker")
+st.title(" AI Fact Checker")
 
 uploaded_file = st.file_uploader("Upload PDF Report", type="pdf")
 
@@ -137,3 +137,4 @@ Evidence:
                 st.markdown("### Sources")
                 for s in sources:
                     st.write(s)
+
